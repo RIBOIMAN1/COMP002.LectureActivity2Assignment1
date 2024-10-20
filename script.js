@@ -5,7 +5,7 @@ console.log('"five" * 2 =', "five" * 2);
 console.log("false == 0 =", false == 0); 
 console.log("5 > 2 && 6 > 3 =", 5 > 2 && 6 > 3); 
 console.log('false == false ? "equal" : "not equal" =', false == false ? "equal" : "not equal"); 
-console.log("true || false =", true || false);
+console.log("true || false =", true || false); /* Displays operation data into the browser console */
 
 function appendResult(text) {
     const resultsDiv = document.getElementById('results');
@@ -21,4 +21,4 @@ appendResult(`"five" * 2 = ${"five" * 2}`);
 appendResult(`false == 0 = ${false == 0}`); 
 appendResult(`5 > 2 && 6 > 3 = ${5 > 2 && 6 > 3}`); 
 appendResult(`false == false ? "equal" : "not equal" = ${false == false ? "equal" : "not equal"}`); 
-appendResult(`true || false = ${true || false}`);
+appendResult(`true || false = ${true || false}`); /* Displays the same information shown from the browser console on the HTML page using h2 elements */
